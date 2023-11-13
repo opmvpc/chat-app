@@ -4,13 +4,15 @@ import Footer from "../components/Footer.vue";
 </script>
 
 <template>
-  <div class="">
+  <div
+    class="min-h-screen flex flex-col bg-gradient-to-br from-blue-950 to-purple-900"
+  >
     <header>
       <Nav />
     </header>
 
-    <main class="">
-      <div class="">
+    <main class="pt-36 w-full">
+      <div class="w-full max-w-xl mx-auto px-4">
         <slot />
       </div>
     </main>

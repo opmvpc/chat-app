@@ -1,16 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import { createApp } from 'vue'
+import { createRouter, createWebHistory } from "vue-router";
+import { createApp } from "vue";
 
-import './style.css'
+import "./style.css";
 
-import App from './App.vue'
-import Home from './pages/Home.vue'
-import Chat from './pages/Chat.vue'
+import App from "./App.vue";
+import Home from "./pages/Home.vue";
+import Chat from "./pages/Chat.vue";
 
 // définition des routes
 const routes = [
-  { path: '/', component: Home },
-  { path: '/chat', component: Chat },
+  { path: "/", component: Home },
+  { path: "/chat", component: Chat },
 ];
 
 // création du routeur
@@ -25,4 +25,4 @@ const app = createApp(App);
 app.use(router);
 
 // on monte l'application à l'élémen #app de index.html
-app.mount('#app');
+app.mount("#app");

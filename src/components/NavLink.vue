@@ -19,7 +19,7 @@ defineProps({
 </script>
 
 <template>
-  <li class="nav-item">
+  <li class="">
     <RouterLink
       class=""
       :class="{ disabled: isDisabled }"
